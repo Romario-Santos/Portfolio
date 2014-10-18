@@ -1,0 +1,85 @@
+/*SCROLL DA PAGINA*/
+*{ margin:0px; padding:0px;}
+body::-webkit-scrollbar { width:10px; }
+body::-webkit-scrollbar-thumb { background:#333;}
+body { overflow-x: hidden; background-color:#1A1A1A; }
+/*inicio cabecalho*/
+header{text-align:center;}
+figure {margin:auto;}
+a{ text-decoration:none;}
+img{ border:none;}
+article{height:600px; margin:auto;text-align:center;}
+
+#headerprincipal{max-width:900px;min-width:634px;width:45%; height:auto;margin:auto;}
+
+#figurecabecalho{width:75%;margin:auto; padding-top:25%;}
+
+.logo{min-width:389px;width:100%;height:60%;border:none;}
+
+#divmenu{width:340px;margin:auto;}
+
+li{list-style:none;float:left;}
+
+.star{width:15px;height:15px;margin-top:15px;;}
+
+h1{font-family: 'museo_sans500';font-size:2.2em;color:#FFF;padding-left:10px;padding-right:10px;}
+
+h3{color:#FFF;font-family: 'museo_sans500';padding-top:100px;}
+/* fim cabecalho */
+
+
+/* inicio sobre */
+h2{padding-top:5%;font-size:3.5em;color:#Ffcc00;}
+#articlesobre{background:#FFF; height:360px}
+#paineltexto
+{
+	 text-align:left;
+	 max-width:900px;
+	 min-width:300px;
+	 width:100%;
+	 padding-top:2%;
+	 margin:auto;
+	 
+}
+.pbio
+    {
+		font-size:1.6em;
+		padding-top:2%;
+		padding-left:5%;
+		padding-right:5%;
+		text-align:justify;
+	}
+/* fim sobreee */
+
+
+/* Inicio Midia sociais*/
+#articlemidias{background:#Ffcc00;height:280px;height:auto;}
+
+#h2midias{color:#FFF;}
+
+#divmidia{max-width:1000px; width:100%;min-height:280px;height:auto;margin:auto;}
+
+.limidia{padding-left:10%;margin-top:3%;float:left;}
+
+.imgmidia{width:190px;height:190px;}
+
+/*Fim Midia Sociais */
+
+/*Inicio Animação*/
+#animacao{ background:#FFF;height:550px;}
+/* fim animação */
+
+
+/*rodape*/
+footer{height:60px; background-color:#454545;}
+#contato
+{
+	margin:auto;
+	padding-top:20px;
+	width:200px;
+	height:30px;
+	text-align:center;
+	color:#FFF;
+	border-bottom:1px solid;
+}
+/*
